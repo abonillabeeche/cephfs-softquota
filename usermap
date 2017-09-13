@@ -1,0 +1,9 @@
+#!/bin/bash
+# Declare an associative array
+
+declare -A USERMAP
+
+# Add homedirs/quotas to the array
+
+USERMAP[abonilla]=1024
+USERMAP[dbyte]=2048
